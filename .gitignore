@@ -1,0 +1,21 @@
+# Binários compilados
+*.o
+*.obj
+*.exe
+*.out
+a.out
+main
+programa
+
+# Arquivos de dados gerados em tempo de execução
+*.dat
+*.bin
+
+# Diretórios de build
+build/
+bin/
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
