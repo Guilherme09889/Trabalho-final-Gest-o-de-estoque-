@@ -15,14 +15,14 @@ e geração de relatórios.
 
 ```
 .
-├── main.c            # Ponto de entrada e menu principal
-├── include/          # Cabeçalhos (.h)
+├── main.c            
+├── include/          
 │   ├── cliente.h
 │   ├── produto.h
 │   ├── relatorio.h
 │   ├── utils.h
 │   └── vendas.h
-└── src/              # Implementações (.c)
+└── src/              
     ├── cliente.c
     ├── produto.c
     ├── relatorio.c
@@ -32,7 +32,6 @@ e geração de relatórios.
 
 ## Como compilar e executar
 
-```bash
 gcc main.c src/*.c -Iinclude -o programa
 ./programa
-```
+
